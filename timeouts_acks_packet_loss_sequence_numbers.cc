@@ -133,6 +133,18 @@ void Txc1::handleMessage(cMessage *msg)
 
 
 //omnetpp.ini
+# This file is shared by all tictoc simulations.
+# Lines beginning with `#' are comments
+
+[General]
+# nothing here
+ 
+
+[Config Tictoc1]
+network = Tictoc1
+#Tictoc1.tic.delayTime = exponential(3)
+#Tictoc1.toc.delayTime = truncnormal(3,1)
+
 
 
 
